@@ -41,18 +41,26 @@ This is a simple Java-based console game where the player has to guess a randoml
 ### Sample Output
 
 ```
-------------------|| Welcome to the Number Guessing Game! ||------------------
-I'm thinking of a number between 1 and 100. Can you guess it within 10 trials?
+****************************************************************
+    || Welcome to the Ultimate Number Guessing Challenge ||     
+****************************************************************
+I've chosen a number between 1 and 100. 
+Can you guess it in just 10 attempts?
 
 Guess the number: 50
 Too high! Try again.
+
 Guess the number: 25
 Too low! Try again.
-Guess the number: 38
-Congratulations! You guessed the number in 3 tries.
-```
 
----
+Guess the number: 38
+
+****************************************************************
+                        Congratulations!
+****************************************************************
+Bravo! You found the number in just 4 attempts. Well played!
+****************************************************************
+```
 
 ### Features
 
