@@ -6,14 +6,14 @@ public class NumberGuessingGame {
     Scanner sc = new Scanner(System.in);
 
     int n = 1 + (int) (100 * Math.random()); // Generate a random number between 1 and 100
-    int i, K = 10; // Number lops & trial
+    int i, T = 10; // Number lops & trial
 
-    System.out.println("\n------------------|| Welcome to the Number Guessing Game! ||------------------");
-    System.out.println("I'm thinking of a number between 1 and 100. Can you guess it within " + K + " trials?");
+    System.out.println("\n-----------|| Welcome to the Ultimate Number Guessing Challenge||------------");
+    System.out.println("I've chosen a number between 1 and 100. Can you guess it in just " + T + " attempts?");
 
     // Loop over K Trials
-    for (i = 0; i < K; i++) {
-      System.out.print("Guess the number: ");
+    for (i = 0; i < T; i++) {
+      System.out.print("\nGuess the number: ");
       int guess = sc.nextInt();
 
       // Check the user's guess
@@ -27,8 +27,10 @@ public class NumberGuessingGame {
       }
     }
     // Check if it's the last trial
-    if (i == K) {
-      System.out.println("\nYou have exhausted all " + K + " trials.\nThe correct number was: " + n);
+    if (i == T) {
+      System.out
+          .println("\n\tGame Over! You ran out of " + T + " tries.\nThe number you were looking for was: " + n + "\n");
+
     }
     sc.close();
   }
