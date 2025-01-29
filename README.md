@@ -58,7 +58,7 @@ Guess the number: 38
 ****************************************************************
                         Congratulations!
 ****************************************************************
-Bravo! You found the number in just 4 attempts. Well played!
+Bravo! You found the number in just 3 attempts. Well played!
 ****************************************************************
 ```
 
