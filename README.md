@@ -69,3 +69,5 @@ Bravo! You found the number in just 3 attempts. Well played!
 - **Victory Check**: Informs the user if they win or lose after exhausting attempts.
 
 ---
+
+Feel free to contribute to this project by submitting pull requests or reporting issues! 🚀  
