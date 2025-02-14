@@ -4,6 +4,12 @@
 This is a simple Java-based console game where the player has to guess a randomly generated number between 1 and 100 within a limited number of trials.
 
 ---
+### Features
+
+- **Randomized Gameplay**: Each game generates a new random number.
+- **Feedback System**: Guides the user with hints (`Too high` or `Too low`).
+- **Victory Check**: Informs the user if they win or lose after exhausting attempts.
+---
 
 ### How to Play
 1. The program will randomly generate a number between **1** and **100**.
@@ -61,12 +67,6 @@ Guess the number: 38
 Bravo! You found the number in just 3 attempts. Well played!
 ****************************************************************
 ```
-
-### Features
-
-- **Randomized Gameplay**: Each game generates a new random number.
-- **Feedback System**: Guides the user with hints (`Too high` or `Too low`).
-- **Victory Check**: Informs the user if they win or lose after exhausting attempts.
 
 ---
 
